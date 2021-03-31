@@ -1,0 +1,20 @@
+{
+  "name": "novaapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./bin/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "azure-storage": "^2.10.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "guid": "^0.0.12",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.12.2",
+    "sendgrid": "^5.2.3"
+  }
+}
